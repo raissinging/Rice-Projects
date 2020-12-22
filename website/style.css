@@ -1,0 +1,70 @@
+body {
+    max-width: 1140px;
+    padding: 100px 0;
+    margin: auto;
+    font-family: sans-serif;
+    background: #00205B;
+    font-size: 14px;
+  }
+  
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px 400px 150px 150px 150px);
+    grid-template-rows: auto;
+  }
+  
+  h2 {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .title {
+    font-size: 12em;
+    color: white;
+  }
+  
+  .event-details {
+    font-size: 0.9em;
+    align-self: end;
+    padding: 20px 10px 10px 0;
+    border-bottom: 2px solid #44474F;
+  }
+  
+  .event-title {
+    font-size: 4em;
+    grid-column: 2/span 2;
+    align-self: end;
+    padding: 10px;
+    border-bottom: 2px solid #44474F;
+  }
+  
+  .speakers {
+    align-self: end;
+    padding: 10px 10px 20px;
+    border-bottom: 2px solid #44474F;
+  }
+  a:link {
+    color: #E0E2E6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:#7C7E7F;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #C04829;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
