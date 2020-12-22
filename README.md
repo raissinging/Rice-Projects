@@ -1,4 +1,4 @@
 # Rice-Projects
-Random things I do in my undergraduate university. 
+Random projects I have done during my time as an undergraduate student. 
 ## Website: jeffreyzhong.tech
 Code that I wrote for my personal website.
